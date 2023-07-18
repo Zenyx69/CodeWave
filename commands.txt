@@ -1,0 +1,30 @@
+Commands:
+/log <message> - Posts a log message
+    Example: /log Hello, CodeWave!
+
+/clear - Clears the entire prompt
+
+/wait <seconds> - Waits for a certain amount of time before allowing to enter commands again or running another command
+    Example: /wait 5
+
+/load <path> - Loads a .cw file
+    Example: /load path/to/file.cw
+
+/execute <if> <== / !=> <command> - Executes an if statement
+    Example: /execute variable_name == 1 /log Condition is true
+
+/var create <name> <value> - Creates a variable with the given name and value
+    Example: /var create my_variable 10
+
+/var delete <name> - Deletes the variable with the given name
+    Example: /var delete my_variable
+
+/var edit <name> <value> - Edits the value of an existing variable
+    Example: /var edit my_variable 20
+
+/var get <name> - Retrieves the value of a variable
+    Example: /var get my_variable
+
+/list variables - Lists all the variables
+    Example: /list variables
+
